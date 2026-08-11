@@ -1,0 +1,6 @@
+cenario,descricao,Nivel_Cisterna,Incerteza_Medicao,Precipitacao,Qualidade_Enlace,Estado_Bateria,Risco_Hidrico_pct,Viabilidade_Transmissao_pct,Decisao_Operacional_pct,interpretacao
+C1,Operacao normal,FALSE,FALSE,FALSE,TRUE,TRUE,8.00,92.00,9.94,Sem acao emergencial
+C2,Risco de desabastecimento com boa condicao operacional,TRUE,FALSE,FALSE,TRUE,TRUE,90.00,95.00,82.48,Transmitir alerta
+C3,Nivel critico mas medicao incerta,TRUE,TRUE,FALSE,TRUE,TRUE,65.00,95.00,62.81,Agir com cautela
+C4,Risco hidrico com baixa viabilidade de transmissao,TRUE,FALSE,FALSE,FALSE,FALSE,90.00,5.00,38.92,Transmissao minima
+C5,Sem risco hidrico mas baixa condicao operacional,FALSE,FALSE,FALSE,FALSE,FALSE,5.00,5.00,8.33,Economizar energia

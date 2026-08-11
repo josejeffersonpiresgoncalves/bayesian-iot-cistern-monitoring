@@ -1,0 +1,6 @@
+no_raiz,P_TRUE,P_FALSE
+Nivel_Cisterna,0.30,0.70
+Incerteza_Medicao,0.25,0.75
+Precipitacao,0.40,0.60
+Qualidade_Enlace,0.70,0.30
+Estado_Bateria,0.75,0.25
